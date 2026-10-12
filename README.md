@@ -6,7 +6,7 @@ Every project needs a shelf of ready answers. product and engineering is one of 
 
 ## Images
 
-[![llm_wiki](images/preview.png)](https://github.com/Swift-Tech-Co)
+[![llm_wiki](images/preview.png)](https://github.com/Swift-Tech-Co/llm_wiki)
 
 ## Features
 
@@ -35,7 +35,6 @@ Every project needs a shelf of ready answers. product and engineering is one of 
 ## What is this?
 
 LLM Wiki is a cross-platform desktop application that turns your documents into an organized, interlinked knowledge base  automatically. Instead of traditional RAG (retrieve-and-answer from scratch every time), the LLM **incrementally builds and maintains a persistent wiki** from your sources. Knowledge is compiled once and kept current, not re-derived on every query.
-
 
 <p align="center">
   <img src="assets/llm_wiki_arch.jpg" width="100%" alt="LLM Wiki Architecture">
@@ -383,7 +382,7 @@ Download from Releases:
 #   macOS:  brew install protobuf
 #   Linux:  sudo apt install protobuf-compiler
 #   Windows: choco install protoc
-git clone https://www.swifttechco.com
+git clone https://github.com/Swift-Tech-Co/llm_wiki
 cd llm_wiki
 npm install
 npm --prefix mcp-server ci && npm run mcp:build   # mcp-server/dist is bundled as a Tauri resource
@@ -413,7 +412,7 @@ npm run tauri build    # Production build
 
 ## Local HTTP API + MCP Server + AI Agent Skill
 
-LLM Wiki ships a built-in local HTTP API at `https://www.swifttechco.com (token-protected, `127.0.0.1`-only) so external tools  including AI agents like **Claude Code**, **Codex**, or any HTTP-capable script  can query your wiki:
+LLM Wiki ships a built-in local HTTP API at `https://github.com/Swift-Tech-Co/llm_wiki (token-protected, `127.0.0.1`-only) so external tools  including AI agents like **Claude Code**, **Codex**, or any HTTP-capable script  can query your wiki:
 
 - `GET /api/v1/health`  server status (no auth)
 - `GET /api/v1/projects`  list projects
@@ -436,12 +435,12 @@ For MCP-compatible clients, LLM Wiki also includes a local MCP server in `mcp-se
 A ready-made **agent skill** for LLM Wiki lives in its own repo. Install it into Claude Code / Codex / any skills-compatible runtime:
 
 ```bash
-npx skills add https://www.swifttechco.com --skill llm-wiki
+npx skills add https://github.com/Swift-Tech-Co/llm_wiki --skill llm-wiki
 ```
 
 After install, the agent can answer prompts like "what does my LLM Wiki say about X", "search my 知识库 for Y", "show the neighborhood of node Z in my wiki graph", and "rescan my wiki sources" by talking to your locally-running app  read-only by default, citing wiki page paths so you can verify in-app.
 
-- **Skill repo**: https://www.swifttechco.com
+- **Skill repo**: https://github.com/Swift-Tech-Co/llm_wiki
 - **Trigger discipline**: it intentionally does **not** trigger on generic "search my notes" / "check my Obsidian / Notion / Logseq"  only when you explicitly name LLM Wiki / `my wiki` / `知识库`.
 
 ## Project Structure
@@ -469,10 +468,10 @@ my-wiki/
 
 ## Star History
 
-<a href="https://www.swifttechco.com">
+<a href="https://github.com/Swift-Tech-Co/llm_wiki">
  <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://www.swifttechco.com" />
-   <source media="(prefers-color-scheme: light)" srcset="https://www.swifttechco.com" />
+   <source media="(prefers-color-scheme: dark)" srcset="https://github.com/Swift-Tech-Co/llm_wiki" />
+   <source media="(prefers-color-scheme: light)" srcset="https://github.com/Swift-Tech-Co/llm_wiki" />
    
  </picture>
 </a>
@@ -495,13 +494,21 @@ Home | Services | Careers | Referral Program | Influencers | About | Contact
 
 **Connect**
 
-- Website: swifttechco.com
+- Website: https://github.com/Swift-Tech-Co/llm_wiki
 - LinkedIn: [linkedin.com/in/stephenoladoke](https://www.linkedin.com/in/stephenoladoke/)
 - LinkedIn (Company): [linkedin.com/company/swift-tech-co](https://www.linkedin.com/company/swift-tech-co)
 - X: [@MrOladoke](https://x.com/MrOladoke)
 - Instagram: [@mr.oladoke](https://www.instagram.com/mr.oladoke/)
 - Instagram (Company): [@swifttechco](https://www.instagram.com/swifttechco/)
 - Organization: [github.com/Swift-Tech-Co](https://github.com/Swift-Tech-Co)
+
+## Sources
+
+Compiled and maintained from upstream [nashsu/llm_wiki](https://github.com/nashsu/llm_wiki) under permissive open-source license.
+
+---
+
+Maintained by [Swift Tech Co.](https://github.com/Swift-Tech-Co) - [Telegram](https://t.me/+Qt_eFvkb2rliMzNh)
 
 ## Sources
 
