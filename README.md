@@ -1,37 +1,12 @@
-# LLM Wiki
+# llm_wiki
+
+## What This Is
+
+Every project needs a shelf of ready answers. product and engineering is one of those shelves, and llm_wiki is the entry on it - the notes, patterns and fixes we reuse when this kind of work comes up.
 
 ## Images
 
-[![llm_wiki](https://opengraph.githubassets.com/1/nashsu/llm_wiki)](https://www.swifttechco.com)
-
-
-<p align="center">
-  <img src="logo.jpg" width="128" height="128" style="border-radius: 22%;" alt="LLM Wiki Logo">
-</p>
-
-<p align="center">
-  <strong>A personal knowledge base that builds itself.</strong><br>
-  LLM reads your documents, builds a structured wiki, and keeps it current.
-</p>
-
-<p align="center">
-  <a href="#what-is-this">What is this?</a> •
-  <a href="#what-we-changed--added">Features</a> •
-  <a href="#tech-stack">Tech Stack</a> •
-  <a href="#installation">Installation</a> •
-  <a href="#credits">Credits</a> •
-  <a href="#license">License</a>
-</p>
-
-<p align="center">
-  English | <a href="README_CN.md">中文</a> | <a href="README_JA.md">日本語</a> | <a href="README_KO.md">한국어</a>
-</p>
-
----
-
-<p align="center">
-  <img src="assets/overview.jpg" width="100%" alt="Overview">
-</p>
+[![llm_wiki](images/preview.png)](https://github.com/Swift-Tech-Co)
 
 ## Features
 
@@ -55,7 +30,7 @@
 - **Mermaid Diagram Rendering**  render Mermaid code blocks directly in chat and preview, with compact syntax-error cards instead of raw parser output
 - **Async Review System**  LLM flags items for human judgment, predefined actions, pre-generated search queries
 - **Chrome Web Clipper**  one-click web page capture with auto-ingest into knowledge base
-- **Local HTTP API + MCP Server + AI Agent Skill**  built-in `127.0.0.1:19828` JSON API and bundled MCP server for hybrid search, file read, graph traversal, and source rescan; ready-made [agent skill](https://www.swifttechco.com) installs into Claude Code / Codex with one command (`npx skills add …`)
+- **Local HTTP API + MCP Server + AI Agent Skill**  built-in `127.0.0.1:19828` JSON API and bundled MCP server for hybrid search, file read, graph traversal, and source rescan; ready-made agent skill installs into Claude Code / Codex with one command (`npx skills add …`)
 
 ## What is this?
 
@@ -396,7 +371,7 @@ The original is platform-agnostic (abstract pattern). We handle concrete cross-p
 
 ### Pre-built Binaries
 
-Download from [Releases](https://www.swifttechco.com):
+Download from Releases:
 - **macOS**: `.dmg` (Apple Silicon)
 - **Windows**: `.msi`
 - **Linux**: `.deb` / `.AppImage`
@@ -516,14 +491,22 @@ AI Automation | FinTech Platforms | Custom Software and Mobile Apps | SaaS Platf
 
 **Join our community on Telegram:** [t.me/+Qt_eFvkb2rliMzNh](https://t.me/+Qt_eFvkb2rliMzNh)
 
-[Home](https://www.swifttechco.com) | [Services](https://www.swifttechco.com/services) | [Careers](https://www.swifttechco.com/careers) | [Referral Program](https://www.swifttechco.com/referral) | [Influencers](https://www.swifttechco.com/influencers) | [About](https://www.swifttechco.com/about) | [Contact](https://www.swifttechco.com/contact)
+Home | Services | Careers | Referral Program | Influencers | About | Contact
 
 **Connect**
 
-- Website: [swifttechco.com](https://www.swifttechco.com)
+- Website: swifttechco.com
 - LinkedIn: [linkedin.com/in/stephenoladoke](https://www.linkedin.com/in/stephenoladoke/)
 - LinkedIn (Company): [linkedin.com/company/swift-tech-co](https://www.linkedin.com/company/swift-tech-co)
 - X: [@MrOladoke](https://x.com/MrOladoke)
 - Instagram: [@mr.oladoke](https://www.instagram.com/mr.oladoke/)
 - Instagram (Company): [@swifttechco](https://www.instagram.com/swifttechco/)
 - Organization: [github.com/Swift-Tech-Co](https://github.com/Swift-Tech-Co)
+
+## Sources
+
+Compiled and maintained from upstream [nashsu/llm_wiki](https://github.com/nashsu/llm_wiki) under permissive open-source license.
+
+---
+
+Maintained by [Swift Tech Co.](https://github.com/Swift-Tech-Co) - [Telegram](https://t.me/+Qt_eFvkb2rliMzNh)
